@@ -95,6 +95,18 @@ Finally, feel free to drop by the `#mezzanine IRC channel`_ on
 are expected to conform to the `Django Code of Conduct`_.
 
 
+Building
+========
+This release requires semantic-release:
+    # npm install semantic-release
+
+To build locally:
+    # npx semantic-release --no-ci 
+
+And finally:
+    # pip install .
+
+
 Contributing
 ============
 
